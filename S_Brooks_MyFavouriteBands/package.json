@@ -7,9 +7,9 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "createNewInterface": "npm run-script newinterface",
-    "createNewClass": "npm run-script newclass",
-    "createNewComponent": "npm run-script newcomponent"
+    "newinterface": "npm run-script newinterface",
+    "newClass": "npm run-script newclass",
+    "newComponent": "npm run-script newcomponent"
   },
   "private": true,
   "dependencies": {
