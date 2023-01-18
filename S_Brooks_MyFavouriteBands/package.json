@@ -1,12 +1,15 @@
 {
   "name": "s-brooks-my-favourite-bands",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "createNewInterface": "npm run-script newinterface",
+    "createNewClass": "npm run-script newclass",
+    "createNewComponent": "npm run-script newcomponent"
   },
   "private": true,
   "dependencies": {
