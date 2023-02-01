@@ -10,4 +10,12 @@ export class ContentList {
     get bands(): IContent[]{
         return this._bands;
     }
+
+    addContent(newBand: IContent){
+        this._bands.push(newBand);
+    }
+
+    arrayLength(): number{
+        return this._bands.length;
+    }
 }
