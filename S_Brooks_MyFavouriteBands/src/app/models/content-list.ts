@@ -6,4 +6,8 @@ export class ContentList {
     constructor(){
         this._bands = [];
     }
+
+    get bands(): IContent[]{
+        return this._bands;
+    }
 }
