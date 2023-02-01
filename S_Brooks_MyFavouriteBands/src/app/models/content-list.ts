@@ -1,3 +1,4 @@
+
 import { IContent } from "./icontent";
 
 export class ContentList {
@@ -18,4 +19,17 @@ export class ContentList {
     arrayLength(): number{
         return this._bands.length;
     }
+
+    toString(index: number): string{
+        const band: IContent = this._bands[index];
+        let prettyHtml = `
+        <h2>${band.name}</h2>
+        <img src="${band.imgSrc}">
+        <p>${band.description}</p>
+        <p>${band.mostPopularSong}</p>`;
+
+        return prettyHtml;
+    }
+    
 }
+

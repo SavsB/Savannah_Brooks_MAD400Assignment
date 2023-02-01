@@ -1,10 +1,8 @@
 export interface IContent {
     id: number;
-    title: string;
+    name: string;
     description?: string;
-    author: string;
     imgSrc?: string;
-    type: string;
-    tags?: string[];
+    mostPopularSong: string;
 
 }
