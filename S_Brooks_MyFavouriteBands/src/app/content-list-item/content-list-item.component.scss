@@ -80,7 +80,7 @@ div.tags{
     span{
         @include bordered-button-span;
         margin-bottom: 8px;
-        color: rgb(40,102,48)
+        color: rgb(40,102,48);
     }
     span:before{
         content: "#";
