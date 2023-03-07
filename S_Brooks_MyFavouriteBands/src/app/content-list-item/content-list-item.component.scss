@@ -61,6 +61,15 @@ span.author{
     color: #000
     }
 }
+span.type {
+    text-align: right;
+
+    &::before {
+        content: "Bands:";
+        display: block;
+        border-bottom: 1px dashed #333;
+    }
+}
 div.tags{
     display: flex;
     align-items: center;
