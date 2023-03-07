@@ -34,6 +34,7 @@ h2{
     color: darkred;
     text-align: center;
 }
+
 img {
     margin: 0 auto;
     display: block;
@@ -52,7 +53,7 @@ div.meta-data{
 }
 
 span.author{
-    @include bordered-button-span();
+    @include bordered-button-span;
     color: #fff
 }
 
