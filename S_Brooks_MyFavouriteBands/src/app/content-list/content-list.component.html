@@ -1,6 +1,6 @@
 <p>content-list works!</p>
 <app-content-list-item
-    *ngFor="let singleBand of items; even as thisBandIsEven; odd as thisBandIsOdd"
+    *ngFor="let singleBand of bandsArray; even as thisBandIsEven; odd as thisBandIsOdd"
     [contentItemInputValue]="singleBand"
     [ngClass]="{'even-band': thisBandIsEven, 'odd-game': thisBandIsOdd}">
 </app-content-list-item>
